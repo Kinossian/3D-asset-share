@@ -1,4 +1,6 @@
-const Index = () => {
+import React from "react";
+
+const Pc = () => {
     return (
         <div
             className="
@@ -6,9 +8,9 @@ const Index = () => {
         lg:pt-0
         "
         >
-            <h1>3D Share</h1>
+            <h2>pc</h2>
         </div>
     );
 };
 
-export default Index;
+export default Pc;

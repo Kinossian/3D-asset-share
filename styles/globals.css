@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .li-nav {
+        @apply flex justify-start
+        items-center capitalize
+        hover:bg-indigo-300 hover:text-indigo-900 transition-all
+        min-w-max px-1 py-2 mx-2 rounded decoration-8
+        lg:justify-center lg:w-40 lg:mx-0;
+    }
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+}
