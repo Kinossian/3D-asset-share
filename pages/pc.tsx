@@ -4,7 +4,7 @@ const Pc = () => {
     return (
         <div
             className="
-        h-screen pt-20
+        h-screen pt-24
         lg:pt-0
         "
         >

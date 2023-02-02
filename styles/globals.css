@@ -5,7 +5,7 @@
 @layer components {
     .li-nav {
         @apply flex justify-start
-        items-center capitalize
+        items-center capitalize text-lg font-light
         hover:bg-indigo-300 hover:text-indigo-900 transition-all
         min-w-max px-1 py-2 mx-2 rounded decoration-8
         lg:justify-center lg:w-40 lg:mx-0;
