@@ -9,8 +9,8 @@ const Navbar = () => {
             <span
                 onClick={() => setIsNav(!isNav)}
                 className={`
-                    fixed right-8 top-8 cursor-pointer z-50
-                    lg:-right-10
+                    fixed right-4 top-7 cursor-pointer z-50
+                    lg:-right-20
                 `}
             >
                 <div
